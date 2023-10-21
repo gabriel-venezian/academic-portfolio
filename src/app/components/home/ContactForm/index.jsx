@@ -1,12 +1,12 @@
 import React from 'react';
-import { SectionTitle } from '../../global';
-import { ContactWrapper, ContactInfo } from './styled';
+import { SectionTitle, SocialMedia } from '../../global';
+import { ContactWrapper, ContactInfo, ContactFormStyles } from './styled';
 import { IconLocation, IconEmail, IconPhone } from '../../global/Icons';
 
 export default function ContactForm() {
   return (
     <>
-      <SectionTitle title={'Contato'} />
+      <SectionTitle id={'contato'} title={'Contato'} />
       <ContactWrapper>
         <ContactInfo>
           <p>Gabriel Alexandre Venezian</p>
@@ -31,7 +31,38 @@ export default function ContactForm() {
               <a href="tel:+5519996618086">+55 19 9 9661-8086</a>
             </li>
           </ul>
+          <SocialMedia />
         </ContactInfo>
+        <ContactFormStyles>
+          <div className="inline-group">
+            <div className="input-group">
+              <label htmlFor="name">Nome</label>
+              <input type="text" id="name" placeholder="Nome completo" />
+            </div>
+            <div className="input-group">
+              <label htmlFor="phone">Telefone</label>
+              <input type="text" id="phone" placeholder="+55 19 9 9999-9999" />
+            </div>
+          </div>
+
+          <div className="input-group">
+            <label htmlFor="email">Email</label>
+            <input type="text" id="email" placeholder="nome@exemplo.com" />
+          </div>
+
+          <div className="input-group">
+            <label htmlFor="message">Mensagem</label>
+            <textarea
+              id="message"
+              rows="6"
+              placeholder="Como posso ajudá-lo?"
+            />
+          </div>
+
+          <button type="submit" onClick={(e) => e.preventDefault()}>
+            Enviar Mensagem
+          </button>
+        </ContactFormStyles>
       </ContactWrapper>
     </>
   );

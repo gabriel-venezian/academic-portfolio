@@ -19,6 +19,8 @@ export const ThemeContextProvider = ({ children }) => {
 
     contactWrapper: '#fff',
     contactInfo: 'linear-gradient(180deg, #6A98F0 0%, #4961DC 100%)',
+    contactInputBg: '#F7F7F7',
+    contactInputBorder: '#EDEDED',
     footerBg:
       'linear-gradient(90deg, #6A98F0 0%, rgba(73, 97, 220, 0.99) 100%)',
   };
@@ -34,6 +36,8 @@ export const ThemeContextProvider = ({ children }) => {
 
     contactWrapper: '#303030',
     contactInfo: '#232323',
+    contactInputBg: '#fff',
+    contactInputBorder: '#fff',
     footerBg: '#232323',
   };
 
