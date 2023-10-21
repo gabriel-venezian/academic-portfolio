@@ -1,15 +1,14 @@
 'use client';
-import React, { useContext } from 'react';
+import React from 'react';
 import { Navbar, Footer } from './components/global';
-import { ContactForm } from './components/home';
-import ThemeContext from './context/ThemeContext';
+import { Certificates, ContactForm } from './components/home';
 
 export default function AcademicPortfolio() {
-  const { theme } = useContext(ThemeContext);
   return (
     <>
       <Navbar />
-      <ContactForm theme={theme} />
+      <Certificates />
+      <ContactForm />
       <Footer />
     </>
   );

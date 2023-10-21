@@ -4,6 +4,7 @@ import IconHackerRank from './IconHackerRank';
 import IconLinkedIn from './IconLinkedIn';
 import IconLocation from './IconLocation';
 import IconPhone from './IconPhone';
+import IconWeb from './IconWeb';
 
 export {
   IconEmail,
@@ -12,4 +13,5 @@ export {
   IconLinkedIn,
   IconLocation,
   IconPhone,
+  IconWeb,
 };

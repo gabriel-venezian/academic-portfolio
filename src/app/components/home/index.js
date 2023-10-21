@@ -1,3 +1,4 @@
+import Certificates from './Certificates';
 import ContactForm from './ContactForm';
 
-export { ContactForm };
+export { Certificates, ContactForm };

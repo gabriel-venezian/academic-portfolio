@@ -83,7 +83,7 @@ export const ContactFormStyles = styled.form`
       border-radius: 5px;
       padding: 1.2rem;
       color: #707070;
-      border: 1px solid ${(props) => props.theme.contactInputBorder};
+      border: 0.1rem solid ${(props) => props.theme.contactInputBorder};
       background: ${(props) => props.theme.contactInputBg};
       resize: none;
 

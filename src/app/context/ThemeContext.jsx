@@ -17,6 +17,9 @@ export const ThemeContextProvider = ({ children }) => {
 
     sectionTitle: '#6D83F2',
 
+    certificateBorder: '#E5E5E5',
+    certificateInfoBg: '#fff',
+    certificateInfoBorder: '#E5E5E5',
     contactWrapper: '#fff',
     contactInfo: 'linear-gradient(180deg, #6A98F0 0%, #4961DC 100%)',
     contactInputBg: '#F7F7F7',
@@ -34,6 +37,9 @@ export const ThemeContextProvider = ({ children }) => {
 
     sectionTitle: '#F8F8F8',
 
+    certificateBorder: '#181818',
+    certificateInfoBg: '#232323',
+    certificateInfoBorder: '#232323',
     contactWrapper: '#303030',
     contactInfo: '#232323',
     contactInputBg: '#fff',

@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import ThemeContext from '../../../../context/ThemeContext';
 
-export default function IconGitHub({ heroSection }) {
+export default function IconGitHub({ heroSection, viewOnline }) {
   const { theme } = useContext(ThemeContext);
 
   if (heroSection) {
@@ -34,7 +34,7 @@ export default function IconGitHub({ heroSection }) {
     );
   }
 
-  if (theme.light) {
+  if (theme.light || viewOnline) {
     return (
       <svg
         width="32"
