@@ -2,6 +2,8 @@ import React, { useContext } from 'react';
 import ThemeContext from '../../../../context/ThemeContext';
 
 export default function IconLinkedin({ heroSection }) {
+  const { theme } = useContext(ThemeContext);
+
   if (heroSection) {
     return (
       <svg
@@ -32,7 +34,6 @@ export default function IconLinkedin({ heroSection }) {
     );
   }
 
-  const { theme } = useContext(ThemeContext);
   if (theme.light) {
     return (
       <svg
