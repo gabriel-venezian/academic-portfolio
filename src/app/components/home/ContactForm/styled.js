@@ -73,6 +73,7 @@ export const ContactFormStyles = styled.form`
     input,
     textarea,
     label {
+      font-family: 'Fira Sans', Arial, sans-serif;
       font-size: 1.6rem;
       line-height: 2.4rem;
     }
