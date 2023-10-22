@@ -24,6 +24,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
       <body className={`${firaSans.className} ${firaCode.className}`}>
+        <link
+          rel="icon"
+          type="image/svg+xml"
+          href="./favicon.svg"
+          sizes="any"
+        />
+        <link rel="icon" type="image/png" href="./favicon.png" sizes="any" />
         <StyledComponentsRegistry>
           <ThemeContextProvider>
             <GlobalStyles />

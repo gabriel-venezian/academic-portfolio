@@ -42,8 +42,8 @@ export default function Projects() {
             <ProjectPreview>
               <Image
                 src={project.previewImg}
-                width={560}
-                height={354}
+                width={'auto'}
+                height={'auto'}
                 alt={project.title}
               />
               <ProjectStack>

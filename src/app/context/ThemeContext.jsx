@@ -14,6 +14,7 @@ export const ThemeContextProvider = ({ children }) => {
     defaultFontColor: '#383838',
     navItems: '#6D83F2',
     switchBg: '#C7D0FF',
+    heroDecorationBg: '#f8f8f8',
 
     sectionTitle: '#6D83F2',
     projectBg: '#F8F8F8',
@@ -34,9 +35,9 @@ export const ThemeContextProvider = ({ children }) => {
     bodyBg: '#181818',
     defaultFontColor: '#F8F8F8',
     navItems: '#F8F8F8',
+    heroDecorationBg: '#232323',
 
     sectionTitle: '#F8F8F8',
-
     projectBg: '#232323',
     certificateBorder: '#181818',
     certificateInfoBg: '#232323',

@@ -29,7 +29,8 @@ const GlobalStyles = createGlobalStyle`
   ul,
   p,
   blockquote,
-  dd {
+  dd,
+  pre {
     margin-inline: 0;
     margin-block: 0;
     padding-inline: 0;

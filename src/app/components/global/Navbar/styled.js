@@ -7,6 +7,9 @@ export const NavContainer = styled.div`
   inline-size: 100%;
   background-color: ${(props) => props.theme.navBg};
   box-shadow: 0 0.1rem 0.2rem 0 rgba(0, 0, 0, 0.1);
+  position: fixed;
+  inset-block-start: 0;
+  z-index: 1;
 `;
 
 export const Nav = styled.nav`
@@ -18,6 +21,10 @@ export const Nav = styled.nav`
   max-inline-size: 116rem;
   margin-inline: auto;
   color: ${(props) => props.theme.navItems};
+
+  & > a {
+    cursor: pointer;
+  }
 `;
 
 export const NavList = styled.ul`

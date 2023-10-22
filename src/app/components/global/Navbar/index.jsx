@@ -1,12 +1,16 @@
 import React from 'react';
 import { NavContainer, Nav, NavList } from './styled';
+import { IconLogo } from '../Icons';
 import ThemeSwitch from './ThemeSwitch/index';
 
 export default function Navbar() {
+  const handleLogoClick = () => window.scrollTo(0, 0);
   return (
     <NavContainer>
       <Nav>
-        <a>LOGO</a>
+        <a onClick={handleLogoClick}>
+          <IconLogo />
+        </a>
         <NavList>
           <li>
             <a href="#sobre">Sobre</a>

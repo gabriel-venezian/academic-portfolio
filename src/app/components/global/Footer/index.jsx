@@ -1,12 +1,13 @@
 import React from 'react';
 import { FooterComponent } from './styled';
+import { IconLogo } from '../Icons';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
   return (
     <FooterComponent>
       <div>
-        <a>LOGO</a>
+        <IconLogo footer={true} />
         <p>Desenvolvido por Gabriel Venezian, {currentYear}</p>
       </div>
     </FooterComponent>
