@@ -21,7 +21,7 @@ export const projectsData = [
     prototypeUrl:
       'https://www.figma.com/proto/dxT7VlUBSuIrWlWURZDHuD/Meu-Neg%C3%B3cio?type=design&node-id=148-1417&t=I8xdrfwhQiiz5nnc-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=148%3A1417',
     previewImg: myBusiness,
-    stackIcons: [<IconFigma />],
+    stackIcons: [<IconFigma key="myBusiness-figma" />],
   },
   {
     title: 'Kids Academy',
@@ -34,7 +34,12 @@ export const projectsData = [
       'https://www.figma.com/proto/l32CTfcmVHZsbeyPAOBFvY/Kids-Academy?type=design&node-id=233-459&t=QTOfpQ23SMViEAKn-0&scaling=min-zoom&page-id=233%3A109',
     githubUrl: 'https://github.com/gabriel-venezian/kids-academy',
     previewImg: kidsAcademy,
-    stackIcons: [<IconHtml />, <IconCss />, <IconJavaScript />, <IconPhp />],
+    stackIcons: [
+      <IconHtml key="kidsAcademy-html" />,
+      <IconCss key="kidsAcademy-css" />,
+      <IconJavaScript key="kidsAcademy-js" />,
+      <IconPhp key="kidsAcademy-php" />,
+    ],
   },
   {
     title: 'Portfólio Acadêmico',
@@ -47,6 +52,11 @@ export const projectsData = [
       'https://www.figma.com/proto/1G6YQQJB9V7JX6h8Z4zUE3/portfolio-academico?node-id=1-4&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A4',
     githubUrl: 'https://github.com/gabriel-venezian/academic-portfolio',
     previewImg: portfolio,
-    stackIcons: [<IconHtml />, <IconCss />, <IconJavaScript />, <IconReact />],
+    stackIcons: [
+      <IconHtml key="portfolio-html" />,
+      <IconCss key="portfolio-css" />,
+      <IconJavaScript key="portfolio-js" />,
+      <IconReact key="portfolio-react" />,
+    ],
   },
 ];
