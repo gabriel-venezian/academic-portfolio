@@ -2,12 +2,12 @@ import React from 'react';
 import { SectionTitle, ViewOnline } from '../../global';
 import { CertificatesWrapper, Certificate, CertificateInfo } from './styled';
 import Image from 'next/image';
-import ai from '../../../../../public/certificates/ai-assisted.jpg';
-import grid from '../../../../../public/certificates/css-grid.jpg';
-import flexbox from '../../../../../public/certificates/css-flexbox.jpg';
-import testing from '../../../../../public/certificates/unit-testing.jpg';
-import graphql from '../../../../../public/certificates/graph-ql.jpg';
-import git from '../../../../../public/certificates/git.jpg';
+import ai from '../../../../../public/home/certificates/ai-assisted.jpg';
+import grid from '../../../../../public/home/certificates/css-grid.jpg';
+import flexbox from '../../../../../public/home/certificates/css-flexbox.jpg';
+import testing from '../../../../../public/home/certificates/unit-testing.jpg';
+import graphql from '../../../../../public/home/certificates/graph-ql.jpg';
+import git from '../../../../../public/home/certificates/git.jpg';
 
 export default function Certificates() {
   const certificates = [
@@ -49,7 +49,12 @@ export default function Certificates() {
       <CertificatesWrapper>
         {certificates.map((certificate, certificateIndex) => (
           <Certificate key={`certificate-${certificateIndex + 1}`}>
-            <Image src={certificate.img} height={280} width={360} />
+            <Image
+              src={certificate.img}
+              height={280}
+              width={360}
+              alt={certificate.title}
+            />
             <CertificateInfo>
               <p>{certificate.title}</p>
               <ViewOnline link={certificate.link} size="medium" />

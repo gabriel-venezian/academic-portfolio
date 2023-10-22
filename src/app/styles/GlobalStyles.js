@@ -14,7 +14,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    font: 400 1.6rem/2.4rem 'Fira Sans', Arial, sans-serif !important;
+    font: 400 1.6rem/2.4rem 'Fira Sans', 'Arial', 'sans-serif' !important;
     color: ${(props) => props.theme.defaultFontColor};
     background-color: ${(props) => props.theme.bodyBg};
   }

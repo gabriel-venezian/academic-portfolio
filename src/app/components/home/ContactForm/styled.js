@@ -73,7 +73,7 @@ export const ContactFormStyles = styled.form`
     input,
     textarea,
     label {
-      font-family: 'Fira Sans', Arial, sans-serif;
+      font-family: 'Fira Sans', 'Arial', 'sans-serif';
       font-size: 1.6rem;
       line-height: 2.4rem;
     }
@@ -92,18 +92,5 @@ export const ContactFormStyles = styled.form`
         outline: -webkit-focus-ring-color auto 1px;
       }
     }
-  }
-
-  button {
-    cursor: pointer;
-    padding: 1.6rem;
-    color: #f8f8f8;
-    font-size: 1.6rem;
-    line-height: 2rem;
-    border: none;
-    border-radius: 0.5rem;
-    font-weight: 500;
-    background: linear-gradient(180deg, #6a98f0 0%, #4961dc 100%);
-    inline-size: fit-content;
   }
 `;

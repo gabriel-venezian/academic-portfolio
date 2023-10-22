@@ -1,5 +1,5 @@
 import React from 'react';
-import { SectionTitle, SocialMedia } from '../../global';
+import { CTA, SectionTitle, SocialMedia } from '../../global';
 import { ContactWrapper, ContactInfo, ContactFormStyles } from './styled';
 import { IconLocation, IconEmail, IconPhone } from '../../global/Icons';
 
@@ -59,9 +59,10 @@ export default function ContactForm() {
             />
           </div>
 
-          <button type="submit" onClick={(e) => e.preventDefault()}>
-            Enviar Mensagem
-          </button>
+          <CTA
+            action="Enviar Mensagem"
+            handleClick={(e) => e.preventDefault()}
+          />
         </ContactFormStyles>
       </ContactWrapper>
     </>

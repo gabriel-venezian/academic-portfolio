@@ -16,7 +16,7 @@ export const ThemeContextProvider = ({ children }) => {
     switchBg: '#C7D0FF',
 
     sectionTitle: '#6D83F2',
-
+    projectBg: '#F8F8F8',
     certificateBorder: '#E5E5E5',
     certificateInfoBg: '#fff',
     certificateInfoBorder: '#E5E5E5',
@@ -37,6 +37,7 @@ export const ThemeContextProvider = ({ children }) => {
 
     sectionTitle: '#F8F8F8',
 
+    projectBg: '#232323',
     certificateBorder: '#181818',
     certificateInfoBg: '#232323',
     certificateInfoBorder: '#232323',
