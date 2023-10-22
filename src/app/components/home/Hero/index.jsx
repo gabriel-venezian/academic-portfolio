@@ -35,7 +35,11 @@ export default function Hero() {
             <h1>GABRIEL VENEZIAN</h1>
             <h2>DESENVOLVEDOR FRONT-END</h2>
           </HeroInformationWrapper>
-          <CTA action="Download Currículo" />
+          <CTA
+            url="https://drive.google.com/file/d/1UH2GtKyF6vJ_Oh3YJ168eYZ2fWhKurLi/view?usp=share_link"
+            targetBlank={true}
+            action="Download Currículo"
+          />
           <SocialMedia heroSection={true} />
         </HeroInformation>
         <HeroDecoration>
