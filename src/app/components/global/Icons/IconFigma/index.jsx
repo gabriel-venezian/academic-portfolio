@@ -1,10 +1,8 @@
-import React, { useContext } from 'react';
-import ThemeContext from '../../../../context/ThemeContext';
+import React from 'react';
+import { WithLabel } from '../styled';
 
-export default function IconFigma() {
-  const { theme } = useContext(ThemeContext);
-
-  if (theme.light) {
+export default function IconFigma({ withLabel }) {
+  const renderIcon = () => {
     return (
       <svg
         width="20"
@@ -42,43 +40,16 @@ export default function IconFigma() {
         </defs>
       </svg>
     );
+  };
+
+  if (withLabel) {
+    return (
+      <WithLabel>
+        {renderIcon()}
+        <label>Figma</label>
+      </WithLabel>
+    );
   }
 
-  return (
-    <svg
-      width="20"
-      height="32"
-      viewBox="0 0 20 32"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <g clipPath="url(#clip0_812_254)">
-        <path
-          d="M5.00095 32C7.7604 32 9.99995 29.6107 9.99995 26.6667V21.3334H5.00095C2.24151 21.3334 0.00195312 23.7227 0.00195312 26.6667C0.00195312 29.6107 2.24151 32 5.00095 32Z"
-          fill="#6D83F2"
-        />
-        <path
-          d="M0.00195312 16C0.00195312 13.056 2.24151 10.6666 5.00095 10.6666H9.99995V21.3333H5.00095C2.24151 21.3333 0.00195312 18.944 0.00195312 16Z"
-          fill="#6D83F2"
-        />
-        <path
-          d="M0.00219727 5.33333C0.00219727 2.38933 2.24175 0 5.0012 0H10.0002V10.6667H5.0012C2.24175 10.6667 0.00219727 8.27733 0.00219727 5.33333Z"
-          fill="#6D83F2"
-        />
-        <path
-          d="M10 0H14.999C17.7584 0 19.998 2.38933 19.998 5.33333C19.998 8.27733 17.7584 10.6667 14.999 10.6667H10V0Z"
-          fill="#6D83F2"
-        />
-        <path
-          d="M19.998 16C19.998 18.944 17.7584 21.3333 14.999 21.3333C12.2396 21.3333 10 18.944 10 16C10 13.056 12.2396 10.6666 14.999 10.6666C17.7584 10.6666 19.998 13.056 19.998 16Z"
-          fill="#6D83F2"
-        />
-      </g>
-      <defs>
-        <clipPath id="clip0_812_254">
-          <rect width="20" height="32" fill="white" />
-        </clipPath>
-      </defs>
-    </svg>
-  );
+  return renderIcon();
 }

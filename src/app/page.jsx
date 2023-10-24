@@ -3,6 +3,7 @@ import React from 'react';
 import { Navbar, Footer } from './components/global';
 import {
   About,
+  Experience,
   Hero,
   Projects,
   Certificates,
@@ -15,6 +16,7 @@ export default function AcademicPortfolio() {
       <Navbar />
       <Hero />
       <About />
+      <Experience />
       <Projects />
       <Certificates />
       <ContactForm />

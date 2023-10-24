@@ -15,8 +15,8 @@ export const ThemeContextProvider = ({ children }) => {
     navItems: '#6D83F2',
     switchBg: '#C7D0FF',
     heroDecorationBg: '#f8f8f8',
-
     sectionTitle: '#6D83F2',
+    experienceBorderColor: '#D9D9D9',
     projectBg: '#F8F8F8',
     certificateBorder: '#E5E5E5',
     certificateInfoBg: '#fff',
@@ -36,8 +36,8 @@ export const ThemeContextProvider = ({ children }) => {
     defaultFontColor: '#F8F8F8',
     navItems: '#F8F8F8',
     heroDecorationBg: '#232323',
-
     sectionTitle: '#F8F8F8',
+    experienceBorderColor: '#6A6A6A',
     projectBg: '#232323',
     certificateBorder: '#181818',
     certificateInfoBg: '#232323',
