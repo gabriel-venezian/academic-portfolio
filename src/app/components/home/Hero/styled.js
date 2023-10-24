@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const HeroContainer = styled.div`
   inline-size: 100%;
-  block-size: 60rem;
+  block-size: 52rem;
   position: relative;
   margin-block: 8rem;
   position: relative;
