@@ -7,6 +7,12 @@ export const ProjectsContainer = styled.section`
   max-inline-size: 116rem;
   margin-block-end: 8rem;
   margin-inline: auto;
+
+  @media (max-width: 1200px) {
+    max-inline-size: 56rem;
+    margin-inline: auto;
+    padding-inline: 2rem;
+  }
 `;
 
 export const ProjectWrapper = styled.div`
@@ -18,6 +24,15 @@ export const ProjectWrapper = styled.div`
   box-shadow: -0.1rem 0.1rem 0.5rem 0.1rem rgba(0, 0, 0, 0.1);
   background: ${(props) => props.theme.projectBg};
   position: relative;
+
+  @media (max-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+    inline-size: 100%;
+    block-size: fit-content;
+    padding-block: 2rem;
+    padding-inline: 2rem;
+  }
 `;
 
 export const ProjectInfo = styled.div`
@@ -41,12 +56,17 @@ export const ProjectInfo = styled.div`
       margin-block-end: 2rem;
     }
   }
+
+  @media (max-width: 1200px) {
+    inline-size: 100%;
+  }
 `;
 
 export const ProjectCTAs = styled.div`
   display: flex;
   align-items: center;
-  column-gap: 1.6rem;
+  gap: 1.6rem;
+  flex-wrap: wrap;
 `;
 
 export const ProjectPreview = styled.div`
@@ -60,6 +80,16 @@ export const ProjectPreview = styled.div`
     border-radius: 0.5rem;
     ${(props) => props.theme.light && 'border: .1rem solid #E5E5E5;'}
     margin-block-end: 1.6rem;
+  }
+
+  @media (max-width: 1200px) {
+    position: initial;
+    block-size: fit-content;
+    inline-size: 100%;
+
+    img {
+      margin-block: 2rem;
+    }
   }
 `;
 
