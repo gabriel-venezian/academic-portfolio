@@ -5,7 +5,7 @@ import {
   IconReact,
 } from '../../components/global/Icons';
 import homeLight from '../../../../public/home/projects/portfolio.jpg';
-import homeDark from '../../../../public/projects/academic-portfolio/home-dark.jpg';
+import experience from '../../../../public/projects/academic-portfolio/experience.jpg';
 import myBusiness from '../../../../public/home/projects/my-business.jpg';
 import kidsAcademy from '../../../../public/home/projects/kids-academy.jpg';
 
@@ -47,7 +47,7 @@ export const academicPortfolioData = {
     <IconJavaScript key="academicPortfolio-js" withLabel={true} />,
     <IconReact key="academicPortfolio-react" withLabel={true} />,
   ],
-  previewImgs: [homeLight, homeDark],
+  previewImgs: [homeLight, experience],
   seeAlso: [
     {
       title: 'Meu Negócio',
