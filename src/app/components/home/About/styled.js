@@ -9,32 +9,40 @@ export const AboutContainer = styled.div`
   position: relative;
 `;
 
-export const AboutContainerDecorationBg = styled.div`
-  position: absolute;
-  inset-inline-start: 0;
-  inset-block-start: 0;
-  z-index: -1;
-  pointer-events: none;
+export const AboutContainerDecorationBg = styled.section`
+  block-size: fit-content;
   inline-size: 100%;
-  block-size: 100%;
   background: linear-gradient(
     134deg,
     rgb(106, 152, 240) 0%,
     rgb(73, 97, 220) 99%
   );
-
-  @media (max-width: 1440px) {
-    background: url('./home/about/about-bg.svg');
-  }
+  transform: skewY(-3deg);
+  padding-block: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const AboutWrapper = styled.section`
-  inline-size: 116rem;
-  block-size: fit-content;
+  max-inline-size: 116rem;
   margin-inline: auto;
   display: flex;
   align-items: center;
-  column-gap: 10rem;
+  column-gap: 8rem;
+  block-size: fit-content;
+  transform: skewY(3deg);
+
+  @media (max-width: 1200px) {
+    margin-inline: 2rem;
+    max-inline-size: calc(100% - 4rem);
+    column-gap: 4rem;
+  }
+
+  @media (max-width: 760px) {
+    flex-direction: column;
+    row-gap: 2rem;
+  }
 `;
 
 export const AboutImage = styled.div`
@@ -57,5 +65,11 @@ export const AboutText = styled.div`
     font-size: 2rem;
     line-height: 2.8rem;
     font-weight: 400;
+  }
+
+  @media (max-width: 760px) {
+    p {
+      font-size: 1.4rem;
+    }
   }
 `;
