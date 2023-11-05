@@ -6,6 +6,16 @@ export const ExperienceContainer = styled.section`
   margin-block-end: 8rem;
   display: flex;
   column-gap: 12rem;
+
+  @media (max-width: 1200px) {
+    margin-inline: 2rem;
+    max-inline-size: calc(100% - 4rem);
+    column-gap: 6rem;
+  }
+
+  @media (max-width: 760px) {
+    flex-direction: column;
+  }
 `;
 
 export const ExperienceSection = styled.section`
