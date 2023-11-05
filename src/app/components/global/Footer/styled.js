@@ -13,8 +13,8 @@ export const FooterComponent = styled.footer`
     max-inline-size: 116rem;
     margin-inline: auto;
 
-    @media (max-width: 1160px) {
-      padding: 2rem;
+    @media (max-width: 1200px) {
+      padding-inline: 2rem;
     }
 
     @media (max-width: 450px) {
