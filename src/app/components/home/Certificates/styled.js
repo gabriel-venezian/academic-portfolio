@@ -7,6 +7,13 @@ export const CertificatesWrapper = styled.div`
   flex-wrap: wrap;
   gap: 4rem;
   margin-inline: auto;
+
+  @media (max-width: 1200px) {
+    margin-inline: 2rem;
+    max-inline-size: calc(100% - 4rem);
+    gap: 2rem;
+    justify-content: center;
+  }
 `;
 
 export const Certificate = styled.div`
@@ -20,6 +27,11 @@ export const Certificate = styled.div`
   img {
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
+  }
+
+  @media (max-width: 1200px) {
+    inline-size: fit-content;
+    block-size: fit-content;
   }
 `;
 
