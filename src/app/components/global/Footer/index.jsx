@@ -8,7 +8,9 @@ export default function Footer() {
     <FooterComponent>
       <div>
         <IconLogo footer={true} />
-        <p>Desenvolvido por Gabriel Venezian, {currentYear}</p>
+        <p>
+          <span>Desenvolvido por</span> Gabriel Venezian, {currentYear}
+        </p>
       </div>
     </FooterComponent>
   );
