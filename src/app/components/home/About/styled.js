@@ -4,7 +4,7 @@ export const AboutContainer = styled.div`
   display: flex;
   align-items: center;
   inline-size: 100%;
-  block-size: 47.8rem;
+  block-size: fit-content;
   margin-block-end: 8rem;
   position: relative;
 `;
@@ -65,11 +65,5 @@ export const AboutText = styled.div`
     font-size: 2rem;
     line-height: 2.8rem;
     font-weight: 400;
-  }
-
-  @media (max-width: 760px) {
-    p {
-      font-size: 1.4rem;
-    }
   }
 `;
