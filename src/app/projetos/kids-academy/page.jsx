@@ -1,5 +1,8 @@
-const KidsAcademy = () => {
-    return <h1>Projeto Kids Academy</h1>
-}
+'use client';
+import React from 'react';
+import { Project } from '../../components/projects/index';
+import { kidsAcademyData } from './kidsAcademyData';
 
-export default KidsAcademy;
+export default function KidsAcademy() {
+  return <Project project={kidsAcademyData}></Project>;
+}

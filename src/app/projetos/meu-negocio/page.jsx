@@ -1,5 +1,8 @@
-const MyBusiness = () => {
-    return <h1>Projeto Meu Negócio</h1>
-}
+'use client';
+import React from 'react';
+import { Project } from '../../components/projects';
+import { myBusinessData } from './myBusinessData';
 
-export default MyBusiness;
+export default function MyBusiness() {
+  return <Project project={myBusinessData} />;
+}

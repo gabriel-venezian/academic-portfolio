@@ -1,5 +1,8 @@
-const AcademicPortfolio = () => {
-    return <h1>Projeto Portfólio Acadêmico</h1>
-}
+'use client';
+import React from 'react';
+import { Project } from '../../components/projects/index';
+import { academicPortfolioData } from './academicPortfolioData';
 
-export default AcademicPortfolio;
+export default function KidsAcademy() {
+  return <Project project={academicPortfolioData}></Project>;
+}

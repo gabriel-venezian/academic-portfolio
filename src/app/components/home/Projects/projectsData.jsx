@@ -46,7 +46,7 @@ export const projectsData = [
     paragraph1:
       'Nos últimos anos a demanda na área da tecnologia têm aumentado notoriamente. Talentos nesta área são constantemente necessários e requisitados.',
     paragraph2:
-      'Levando em consideração este cenário, desenvolvi o Portfólio Acadêmico, uma maneira de estruturar e demonstrar minhas experiências e conhecimentos para o mercado de trabalho.',
+      'Levando em consideração este cenário, foi desenvolvido o Portfólio Acadêmico, uma maneira de estruturar e demonstrar experiências e conhecimentos para o mercado de trabalho.',
     caseStudyUrl: '/projetos/portfolio-academico',
     prototypeUrl:
       'https://www.figma.com/proto/1G6YQQJB9V7JX6h8Z4zUE3/portfolio-academico?node-id=1-4&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A4',

@@ -1,5 +1,4 @@
 import React from 'react';
-import { SectionTitle } from '../../global';
 import {
   AboutContainer,
   AboutContainerDecorationBg,
