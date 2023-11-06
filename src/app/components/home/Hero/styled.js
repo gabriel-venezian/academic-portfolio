@@ -20,12 +20,6 @@ export const HeroContainer = styled.div`
     block-size: 72rem;
   }
 
-  @media (min-width: 435px) and (max-width: 1020px) {
-    & > img {
-      display: none;
-    }
-  }
-
   @media (max-width: 435px) {
     block-size: 77rem;
   }

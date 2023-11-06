@@ -25,6 +25,11 @@ export const Nav = styled.nav`
   & > a {
     cursor: pointer;
   }
+
+  @media (max-width: 1200px) {
+    margin-inline: 2rem;
+    max-inline-size: calc(100% - 4rem);
+  }
 `;
 
 export const NavList = styled.ul`
@@ -45,5 +50,9 @@ export const NavList = styled.ul`
       inset-block-end: -0.1rem;
       inset-inline: 0;
     }
+  }
+
+  @media (max-width: 718px) {
+    display: none;
   }
 `;
