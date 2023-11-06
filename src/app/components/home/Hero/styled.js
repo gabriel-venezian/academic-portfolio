@@ -5,7 +5,6 @@ export const HeroContainer = styled.div`
   block-size: 52rem;
   position: relative;
   margin-block: 8rem;
-  position: relative;
 
   & > img {
     position: absolute;
