@@ -114,7 +114,7 @@ export const HeroDecorationClass = styled.div`
     letter-spacing: -0.02rem;
   }
 
-  @media (max-width: 428px) {
+  @media (max-width: 435px) {
     letter-spacing: -0.14rem;
   }
 
