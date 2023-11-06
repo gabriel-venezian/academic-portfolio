@@ -111,21 +111,19 @@ export const HeroDecorationClass = styled.div`
   row-gap: 0.8rem;
 
   @media (max-width: 600px) {
-    letter-spacing: -0.02rem;
+    pre {
+      inline-size: 100%;
+    }
   }
 
   @media (max-width: 435px) {
+    row-gap: 0;
+    font-size: 1.2rem;
     letter-spacing: -0.14rem;
   }
 
-  @media (max-width: 372px) {
-    row-gap: 0;
+  @media (max-width: 320px) {
     font-size: 1rem;
-    letter-spacing: -0.02rem;
-  }
-
-  @media (max-width: 319px) {
-    letter-spacing: -0.1rem;
   }
 `;
 
