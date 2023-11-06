@@ -20,6 +20,12 @@ export const ExperienceContainer = styled.section`
 
 export const ExperienceSection = styled.section`
   inline-size: 100%;
+
+  @media (max-width: 760px) {
+    & + & {
+      margin-block-start: 3.2rem;
+    }
+  }
 `;
 
 export const ExperienceSectionTitle = styled.h1`
