@@ -10,9 +10,17 @@ export const ProjectContainer = styled.div`
     border-radius: 0.5rem;
     ${(props) => props.theme.light && 'border: .1rem solid #E5E5E5;'}
   }
+
+  @media (max-width: 1200px) {
+    margin-inline: 2rem;
+    max-inline-size: calc(100% - 4rem);
+  }
 `;
+
 export const ProjectHeader = styled.header`
   display: flex;
+  flex-wrap: wrap;
+  row-gap: 2rem;
   align-items: center;
   justify-content: space-between;
   margin-block-end: 4rem;
@@ -32,8 +40,13 @@ export const ProjectHeader = styled.header`
 
 export const ProjectWrapper = styled.div`
   display: flex;
+  row-gap: 2rem;
   column-gap: 4rem;
   margin-block-end: 2rem;
+
+  @media (max-width: 1020px) {
+    flex-direction: column;
+  }
 `;
 
 export const ProjectContent = styled.div`
@@ -47,6 +60,10 @@ export const ProjectContent = styled.div`
     font-size: 2rem;
     font-weight: 400;
     line-height: 2.8rem;
+  }
+
+  @media (max-width: 1020px) {
+    max-inline-size: 100%;
   }
 `;
 
@@ -87,7 +104,8 @@ export const ProjectSectionTitle = styled.h2`
 
 export const ProjectStack = styled.ul`
   display: flex;
-  column-gap: 2rem;
+  gap: 2rem;
+  flex-wrap: wrap;
   list-style: none !important;
   margin-inline-start: 0 !important;
 `;
@@ -97,6 +115,22 @@ export const ProjectPreview = styled.div`
 
   img + img {
     margin-block-start: 4rem;
+  }
+
+  @media (min-width: 1024px) {
+    min-inline-size: 46rem;
+  }
+
+  @media (max-width: 1020px) {
+    margin-block-start: 0;
+
+    img {
+      margin-inline: auto;
+    }
+
+    img + img {
+      margin-block-start: 2rem;
+    }
   }
 `;
 
@@ -114,6 +148,14 @@ export const ProjectNavigation = styled.div`
       font-size: 2rem;
       font-weight: 700;
       line-height: 2.8rem;
+    }
+  }
+
+  @media (max-width: 1020px) {
+    flex-direction: column;
+
+    .navigationItem + .navigationItem {
+      margin-block-start: 2rem;
     }
   }
 `;
