@@ -140,6 +140,12 @@ export const ContactFormStyles = styled.form`
 
   @media (max-width: 1200px) {
     padding: 4rem;
+
+    .inline-group {
+      input {
+        inline-size: 100%;
+      }
+    }
   }
 
   @media (max-width: 1020px) {
@@ -148,10 +154,6 @@ export const ContactFormStyles = styled.form`
     .inline-group {
       flex-direction: column;
       row-gap: 2rem;
-
-      .input-group {
-        inline-size: 100%;
-      }
     }
   }
 `;
