@@ -110,7 +110,11 @@ export const HeroDecorationClass = styled.div`
   flex-direction: column;
   row-gap: 0.8rem;
 
-  @media (max-width: 450px) {
+  @media (max-width: 600px) {
+    letter-spacing: -0.02rem;
+  }
+
+  @media (max-width: 428px) {
     letter-spacing: -0.14rem;
   }
 
