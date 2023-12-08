@@ -53,6 +53,10 @@ export const AboutImage = styled.div`
   border-radius: 50%;
   border: 0.5rem solid #f8f8f8;
   overflow: hidden;
+
+  img {
+    block-size: 24rem;
+  }
 `;
 
 export const AboutText = styled.div`

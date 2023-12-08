@@ -20,24 +20,17 @@ export const experiencesData = [
     description:
       'Criação de rotinas automatizadas. Consulta e manipulação de dados. Integração entre sistemas. Colaboração efetiva com a equipe.',
   },
-  {
-    title: 'Aprendiz de TI',
-    location: 'Dairy Partners Americas, Araras',
-    period: 'Junho 2020 - Março 2022 · 10 meses',
-    description:
-      'Construção de aplicativos utilizando o Microsoft Power Apps. Iniciativa e acompanhamento de novos projetos. Instalação e manutenção de equipamentos.',
-  },
 ];
 
 export const educationalData = [
   {
     course: 'Tecnólogo em Sistemas para Internet',
-    name: 'Fatec Antonio Brambilla',
-    period: 'Previsão de formação em dezembro de 2023',
+    name: 'FATEC Antonio Brambilla',
+    period: '2020 - 2023',
   },
   {
     course: 'Técnico em Sistemas para Internet',
-    name: 'Etec Prefeito Alberto Feres',
+    name: 'ETEC Prefeito Alberto Feres',
     period: '2019 - 2020',
   },
   {

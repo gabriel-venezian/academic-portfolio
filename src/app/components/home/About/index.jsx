@@ -24,20 +24,17 @@ export default function About() {
           </AboutImage>
           <AboutText>
             <p>Olá! Sou Gabriel Venezian.</p>
+            <p>Desenvolvedor Front-end apaixonado por tecnologia.</p>
             <p>
-              Desenvolvedor Front-end apaixonado por tecnologia. Conheci
-              programação aos 11 anos, e desde então minha vida mudou.
+              Conheci a programação aos 11 anos, e desde então minha vida mudou.
             </p>
-            <p>Amo jogos, livros, músicas, animes e um bom café.</p>
+            <p>Amo jogos, músicas, animes e um bom café.</p>
             <p>
-              Trabalho com a criação e desenvolvimento de interfaces, correção
-              de erros e bugs visuais, além do aprimoramento de interfaces
-              baseado em feedbacks.
+              Trabalho com a criação e desenvolvimento de sites e aplicações.
             </p>
             <p>
-              Estou no 6º Semestre de Sistemas para Internet, tecnólogo
-              disponibilizado pela Fatec Araras, e minha previsão de formatura é
-              dezembro de 2023.
+              Atualmente curso o Tecnólogo em Sistemas para Internet na Fatec
+              Araras.
             </p>
           </AboutText>
         </AboutWrapper>

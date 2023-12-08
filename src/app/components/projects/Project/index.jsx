@@ -22,6 +22,10 @@ export default function Project({ project }) {
       left: 0,
       behavior: 'instant',
     });
+
+    window.onpopstate = function () {
+      window.location.reload();
+    };
   }, []);
 
   return (
