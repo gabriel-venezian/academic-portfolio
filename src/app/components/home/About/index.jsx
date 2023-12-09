@@ -33,7 +33,7 @@ export default function About() {
               Trabalho com a criação e desenvolvimento de sites e aplicações.
             </p>
             <p>
-              Atualmente curso o Tecnólogo em Sistemas para Internet na Fatec
+              Atualmente curso o Tecnólogo em Sistemas para Internet na FATEC
               Araras.
             </p>
           </AboutText>
